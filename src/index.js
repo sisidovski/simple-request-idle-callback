@@ -1,4 +1,4 @@
-export default () => {
+export function ric() {
   window.requestIdleCallback =
     window.requestIdleCallback ||
     function (cb) {
