@@ -2,7 +2,7 @@
   "name": "simple-request-idle-callback",
   "version": "1.0.0",
   "description": "Simple browser shim for window.requestIdleCallback https://developers.google.com/web/updates/2015/08/using-requestidlecallback",
-  "main": "bundle.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack src/index.js dist/bundle.js"
