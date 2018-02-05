@@ -2,18 +2,22 @@
   "name": "simple-request-idle-callback",
   "version": "1.0.0",
   "description": "Simple browser shim for window.requestIdleCallback https://developers.google.com/web/updates/2015/08/using-requestidlecallback",
-  "main": "index.js",
+  "main": "bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/index.js dist/bundle.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sisidovski/simple-request-idle-callback.git"
   },
-  "author": "",
+  "author": "Shunya Shishido",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sisidovski/simple-request-idle-callback/issues"
   },
-  "homepage": "https://github.com/sisidovski/simple-request-idle-callback#readme"
+  "homepage": "https://github.com/sisidovski/simple-request-idle-callback#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
 }
